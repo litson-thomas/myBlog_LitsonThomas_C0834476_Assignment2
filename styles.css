@@ -6,6 +6,8 @@
 }
 body{
     background: var(--bg);
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .header{
