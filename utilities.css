@@ -1,0 +1,98 @@
+/* utilities */
+.p1{
+    padding: 1rem;
+}
+.p2{
+    padding: 2rem;
+}
+.p3{
+    padding: 3rem;
+}
+.pt-1{
+    padding-top: 1rem;
+}
+.pt-2{
+    padding-top: 2rem;
+}
+.pb-1{
+    padding-bottom: 1rem;
+}
+.pb-2{
+    padding-bottom: 2rem;
+}
+.px-1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.px-2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.py-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.py-2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.d-flex{
+    display: flex;
+}
+.primary-color{
+    color: var(--primary);
+}
+.dark-color{
+    color: var(--dark);
+}
+.text-light-dark-color{
+    color: var(--text-light-dark);
+}
+.italics{
+    font-style: italic;
+}
+.font-w-200{
+    font-weight: 200;
+}
+.v-hidden{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+}
+.m-0{
+    margin: 0 !important;
+}
+.d-none{
+    display: none !important;
+}
+input{
+    color: var(--dark);
+}
+::selection{
+    color: #ffffff;
+    background: var(--primary);
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* media query styles */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
