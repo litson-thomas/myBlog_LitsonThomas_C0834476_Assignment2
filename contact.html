@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Litson Thomas - Personal Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="content.css">
+</head>
+<body>
+    
+
+
+    <div class="container">
+
+        <!-- header start -->
+        <header>
+            <div class="header">
+                <!-- header nav links -->
+                <nav>
+                    <div class="links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html" class="active">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="dark-mode">
+                        <label for="dark-mode" id="mode-toggle">
+                            <span class="d-block-light dark-mode-switch d-none">🌤️</span>
+                            <span class="d-block-dark dark-mode-switch d-none">🌙</span>
+                        </label>
+                        <input type="checkbox" id="dark-mode" class="v-hidden">
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- main start -->
+        <main>
+            
+            <h3 class="section-heading">Let's Talk ✌️</h3>
+
+            <form>
+                <div class="input-wrapper">
+                    <label for="name">Enter Name</label>
+                    <input type="text" id="name" placeholder="Ex. John Doe" class="lt-input">
+                </div>
+                <div class="input-wrapper">
+                    <label for="email">Enter Email</label>
+                    <input type="email" id="email" placeholder="Ex. abc@english.com" class="lt-input">
+                </div>
+                <div class="input-wrapper">
+                    <label for="subject">Enter subject</label>
+                    <input type="text" id="subject" placeholder="New App Idea" class="lt-input">
+                </div>
+                <div class="input-wrapper">
+                    <label for="message">Enter Message</label>
+                    <textarea type="text" id="message" placeholder="Message" rows="8" class="lt-input"></textarea>
+                </div>
+                <div class="form-button-wrapper">
+                    <button class="primary-btn" type="submit">Send</button>
+                </div>
+            </form>
+
+        </main>
+        <!-- main end -->
+
+        <!-- footer start -->
+        <footer>
+            <p class="text-light-dark-color">&copy; with <span style="color: red">&#x2764;</span> Litson Thomas</p>
+            <ul>
+                <li><a href="https://www.facebook.com/litsonthomask/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/seraphtuts/" target="_blank">Instagram</a></li>
+                <li><a href="https://youtube.com/seraphtuts" target="_blank">YouTube</a></li>
+                <li><a href="https://www.linkedin.com/in/litsonthomas/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </footer>
+        <!-- footer end -->
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

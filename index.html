@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="variables.css">
     <link rel="stylesheet" href="utilities.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     
@@ -18,11 +18,11 @@
 
     <div class="container">
 
-        <svg viewBox="0 0 200 200" class="blob-two" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 200 200" class="d-sm-none blob-two" xmlns="http://www.w3.org/2000/svg">
             <path fill="var(--dark)" d="M33.9,-39.8C43.4,-32.5,50,-21.3,56,-7C61.9,7.3,67.3,24.6,60.3,33.1C53.3,41.5,34.1,41.1,16.9,47.9C-0.2,54.7,-15.1,68.7,-31.2,69.8C-47.3,70.9,-64.5,59,-71.8,43C-79.1,27.1,-76.5,7,-71.1,-10.7C-65.8,-28.4,-57.7,-43.7,-45.4,-50.5C-33.1,-57.2,-16.5,-55.3,-2.1,-52.8C12.3,-50.2,24.5,-47,33.9,-39.8Z" transform="translate(100 100)" />
         </svg>
 
-        <svg viewBox="0 0 200 200" class="blob-one" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 200 200" class="d-sm-none blob-one" xmlns="http://www.w3.org/2000/svg">
             <path fill="var(--dark)" d="M48.4,-59C61.8,-46.4,71.2,-30.3,76.8,-11.6C82.4,7.1,84.2,28.4,73.9,39.3C63.6,50.2,41.1,50.6,23.4,51.5C5.8,52.3,-7.1,53.6,-19.8,50.6C-32.5,47.6,-45.1,40.5,-55.3,29C-65.5,17.5,-73.3,1.6,-69.1,-10.4C-64.8,-22.3,-48.5,-30.3,-35,-42.9C-21.4,-55.4,-10.7,-72.5,3.4,-76.6C17.5,-80.6,35,-71.6,48.4,-59Z" transform="translate(100 100)" />
         </svg>
 
@@ -33,10 +33,10 @@
                 <nav>
                     <div class="links">
                         <ul>
-                            <li><a href="#" class="active">Home</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                     <div class="dark-mode">
@@ -123,7 +123,7 @@
 
             <!-- blog section -->
             <div class="blog py-2">
-                <svg viewBox="0 0 200 200" class="blob-three" xmlns="http://www.w3.org/2000/svg">
+                <svg viewBox="0 0 200 200" class="d-sm-none blob-three" xmlns="http://www.w3.org/2000/svg">
                     <path fill="var(--dark)"d="M54.6,-52.8C60.9,-35.6,49.5,-13.4,44.6,11C39.7,35.4,41.2,62.1,29.2,72.3C17.3,82.5,-8.2,76.2,-29.1,64.6C-50,52.9,-66.3,35.9,-71,16C-75.7,-3.9,-68.7,-26.6,-55,-45.5C-41.2,-64.5,-20.6,-79.7,1.8,-81.1C24.1,-82.5,48.2,-70.1,54.6,-52.8Z" transform="translate(100 100)" />
                 </svg>
                 <h3 class="section-heading">Blog</h3>
@@ -135,7 +135,7 @@
                                 <div class="line"></div>
                             </div>
                             <div class="left">
-                                <h4 class="primary-color">WordPress - Pros & Cons &#9679; <span class="italics text-light-dark-color font-w-200">April 15, 2022</span></h4>
+                                <a href="https://seraphtuts.com/post/wordpress-pros-and-cons" target="_blank"><h4 class="primary-color">WordPress - Pros & Cons &#9679; <span class="italics text-light-dark-color font-w-200">April 15, 2022</span></h4></a>
                                 <p class="section-para m-0">Are you stepping into the world of website creation? If your answer is yes and WordPress is your choice, come let’s look at the pros and cons of WordPress.</p>
                             </div>
                         </div>
@@ -147,8 +147,42 @@
                                 <div class="line"></div>
                             </div>
                             <div class="left">
-                                <h4 class="primary-color">Frontend Development Importance &#9679; <span class="italics text-light-dark-color font-w-200">April 15, 2022</span></h4>
+                                <a href="https://seraphtuts.com/post/frontend-development-importance" target="_blank"><h4 class="primary-color">Frontend Development Importance &#9679; <span class="italics text-light-dark-color font-w-200">April 15, 2022</span></h4></a>
                                 <p class="section-para m-0">Front-end development isn't always about writing some lines of code. It’s about developing an appearance that your customer experience with every click. We should design and develop magnificent front-end solutions for websites, and mobile apps.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="blog.html" class="see-all-btn">See all</a>
+            </div>
+
+            <!-- education section -->
+            <div class="blog py-2">
+                <h3 class="section-heading">Education</h3>
+                <div class="blog-list py-1">
+                    <div class="blog-item py-1">
+                        <div class="top d-flex">
+                            <div class="side">
+                                <div class="dot-icon"></div>
+                                <div class="line"></div>
+                            </div>
+                            <div class="left">
+                                <a href="#" target="_blank"><h4 class="primary-color">Lambton College, Toronto &#9679; <span class="italics text-light-dark-color font-w-200">SEPTEMBER 2021 - MAY 2023</span></h4></a>
+                                <small class="dark-color"><strong>Mobile Application Design & Development</strong></small>
+                                <p class="section-para m-0">Currently Pursuing Mobile Application Design & Development Post Graduate degree in Lambton College, Toronto</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-item py-1">
+                        <div class="top d-flex">
+                            <div class="side">
+                                <div class="dot-icon"></div>
+                                <div class="line"></div>
+                            </div>
+                            <div class="left">
+                                <a href="#" target="_blank"><h4 class="primary-color">Sahrdaya College of Engineering &#9679; <span class="italics text-light-dark-color font-w-200">SEPTEMBER 2021 - MAY 2023</span></h4></a>
+                                <small class="dark-color"><strong>B.Tech Computer Science & Engineering</strong></small>
+                                <p class="section-para m-0">Graduated B.Tech in Computer Science & Engineering</p>
                             </div>
                         </div>
                     </div>
@@ -176,6 +210,7 @@
                 <li><a href="https://www.facebook.com/litsonthomask/" target="_blank">Facebook</a></li>
                 <li><a href="https://www.instagram.com/seraphtuts/" target="_blank">Instagram</a></li>
                 <li><a href="https://youtube.com/seraphtuts" target="_blank">YouTube</a></li>
+                <li><a href="https://www.linkedin.com/in/litsonthomas/" target="_blank">LinkedIn</a></li>
             </ul>
         </footer>
         <!-- footer end -->
